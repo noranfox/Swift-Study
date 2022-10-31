@@ -1,6 +1,6 @@
 //: [Previous](@previous)
 
-import Foundation
+import UIKit
 
 var greeting = "Hello, playground"
 
@@ -25,3 +25,5 @@ String()
 "고양이".dropLast()
 "고양이".dropLast(3)
 "고양이".isEmpty
+"고양이".count
+

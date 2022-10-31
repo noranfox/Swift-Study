@@ -3,5 +3,11 @@
     <pages>
         <page name='Number'/>
         <page name='String'/>
+        <page name='List'/>
+        <page name='Constant and Variable'/>
+        <page name='가정법'/>
+        <page name='반복문'/>
+        <page name='입력과출력'/>
+        <page name='옵셔널'/>
     </pages>
 </playground>
