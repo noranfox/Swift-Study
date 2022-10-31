@@ -10,6 +10,8 @@
         <page name='입력과출력'/>
         <page name='옵셔널'/>
         <page name='구조체'/>
-        <page name='클래스'/>
+        <page name='열거형'/>
+        <page name='클래스'/>
+        <page name='protocol'/>
     </pages>
 </playground>
