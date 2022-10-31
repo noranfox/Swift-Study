@@ -8,6 +8,8 @@
         <page name='가정법'/>
         <page name='반복문'/>
         <page name='입력과출력'/>
-        <page name='옵셔널'/>
+        <page name='옵셔널'/>
+        <page name='구조체'/>
+        <page name='클래스'/>
     </pages>
 </playground>
