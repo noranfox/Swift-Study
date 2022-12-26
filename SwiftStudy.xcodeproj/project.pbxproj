@@ -24,9 +24,9 @@
 
 /* Begin PBXFileReference section */
 		CC6D6439295A41A10041DACA /* SwiftStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftStudy; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC6D6445295A46D50041DACA /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Type.swift; path = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/../../../../../../../../../Users/jeonghyeongi/Github/Swift-Study/SwiftStudy/SwiftStudyDone/Type.swift"; sourceTree = "<absolute>"; };
 		CC6D6448295A4F860041DACA /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
 		CC6D644C295A53C60041DACA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CCABE0CD295A552300947A52 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +68,8 @@
 		CC6D644A295A4FC70041DACA /* SwiftStudyDone */ = {
 			isa = PBXGroup;
 			children = (
-				CC6D6445295A46D50041DACA /* Type.swift */,
 				CC6D6448295A4F860041DACA /* Tuple.swift */,
+				CCABE0CD295A552300947A52 /* Type.swift */,
 			);
 			path = SwiftStudyDone;
 			sourceTree = "<group>";
