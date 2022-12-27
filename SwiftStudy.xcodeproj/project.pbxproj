@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC6D644D295A53C60041DACA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6D644C295A53C60041DACA /* main.swift */; };
+		CCABE0D1295A65A000947A52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABE0D0295A65A000947A52 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +25,9 @@
 /* Begin PBXFileReference section */
 		CC6D6439295A41A10041DACA /* SwiftStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6D6448295A4F860041DACA /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
-		CC6D644C295A53C60041DACA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CCABE0CD295A552300947A52 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		CCABE0D0295A65A000947A52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CCABE0D2295A65C500947A52 /* SwiftStudy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftStudy-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +61,8 @@
 		CC6D643B295A41A10041DACA /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
-				CC6D644C295A53C60041DACA /* main.swift */,
+				CCABE0D0295A65A000947A52 /* main.swift */,
+				CCABE0D2295A65C500947A52 /* SwiftStudy-Bridging-Header.h */,
 			);
 			path = SwiftStudy;
 			sourceTree = "<group>";
@@ -133,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC6D644D295A53C60041DACA /* main.swift in Sources */,
+				CCABE0D1295A65A000947A52 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
