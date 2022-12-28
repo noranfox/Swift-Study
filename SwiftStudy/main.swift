@@ -105,3 +105,41 @@ if let firstPet = pet1, let secondPet = pet2{
 else{
     print("nil")
 }
+
+let catDream = """
+this cat try to move other place for kitty.
+but kitty doesn't have enough time to find safty place.
+"""
+print(catDream)
+
+for char in "Cat!"{
+  print(char)
+ }
+let mause: Character
+mause = "m"
+print(mause)
+print(type(of: mause))
+
+let cat: [Character] = ["c", "a", "t"]
+let catSpelling = String(cat)
+print(catSpelling)
+
+let dsw = "cat is cat. just cat"
+print("count is \(dsw.count)")
+
+var cats = "Cat"
+cats.insert("!", at:cats.endIndex)
+print(cats)
+cats.insert(contentsOf: "Super", at: cats.startIndex)
+print(cats)
+cats.remove(at: cats.index(before: cats.endIndex))
+print(cats)
+let range = cats.index(cats.endIndex, offsetBy: -3)..<cats.endIndex
+cats.removeSubrange(range)
+print(cats)
+
+let quotation = "We're a lot alike, you and I."
+let sameQuotation = "We're a lost alike, you and I."
+if quotation == sameQuotation {
+    print("These two strings are considered equal")
+}

@@ -64,7 +64,7 @@ print(type(of:welcomeMessage),type(of:catAge),type(of:pi),type(of:anotherPi))
 
 
 //정수 데이터 타입 : Int
-//정수(솢수점이 없는 수)를 저장하는 데 사용
+//정수(소수점이 없는 수)를 저장하는 데 사용
 //8비트, 16비트, 32비트, 64비트 정수를 지원
 //부호없는정수(UInt8,UInt16,UInt32,UInt64)
 //애플은 특정 크기의 데이터 타입 보다 Int데이터 타입을 권장
@@ -96,4 +96,5 @@ var userName = "Kim"
 var age = 20
 var message = "\(userName)의 나이는 \(age)입니다."
 print(message)
+
 
