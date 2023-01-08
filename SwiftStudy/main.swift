@@ -143,3 +143,189 @@ let sameQuotation = "We're a lost alike, you and I."
 if quotation == sameQuotation {
     print("These two strings are considered equal")
 }
+
+var Cats = [Int]()
+print(Cats)
+Cats.append(3)
+print(Cats)
+Cats = []
+print(Cats)
+
+var fourCats = Array(repeating: 0.0, count: 4)
+print(fourCats)
+var BigCats = [Double]()
+BigCats = Array(repeating: 1, count: 5)
+print(BigCats)
+
+var NewIntArray = fourCats + BigCats
+print(NewIntArray)
+
+var CastsNAME = ("KKUL", 123, 3.20)
+print(CastsNAME)
+print(type(of: CastsNAME))
+var catsName2: [String] = ["KKUL", "NYNONG", "MiLLION"]
+print(catsName2)
+print(type(of: catsName2))
+
+print(catsName2.count)
+
+if catsName2.isEmpty{
+    print("nil")
+}
+else{
+    print(catsName2.count)
+}
+
+catsName2.append("Small")
+catsName2 += ["Big"]
+print(catsName2)
+
+print(catsName2[0])
+print(catsName2[0...2])
+
+
+catsName2.insert("middle", at:1)
+print(catsName2)
+catsName2.remove(at:1)
+print(catsName2)
+catsName2.removeLast()
+print(catsName2)
+
+for item in catsName2{
+    print(item)
+}
+
+var BirdName = Set<String>()
+print(type(of: BirdName))
+
+let BirdsName: Set<String> = ["First", "Dragond", "Super"]
+print(BirdsName)
+
+var birdsName: Set = ["Ki","Merry","Happy"]
+print(birdsName)
+
+print(birdsName.count)
+if birdsName.isEmpty{
+    print("nil")
+}
+else{
+    print(birdsName.count)
+}
+
+birdsName.insert("New")
+birdsName.insert("Year")
+print(birdsName)
+birdsName.remove("New")
+print(birdsName)
+
+if birdsName.contains("Ki"){
+    print("Yes")
+}
+else{
+    print("No")
+}
+
+for birds in birdsName {
+    print(birds)
+}
+
+let first: Set = [1,2,3,4,5]
+let second: Set = [0,2,4,6,8]
+let third: Set = [1,2]
+let four: Set = [1,2]
+let five: Set = [0,5]
+
+print(first.union(second))
+print(first.intersection(second))
+print(first.subtracting(second))
+print(first.symmetricDifference(second))
+
+
+print(four.isSubset(of: third))
+print(four.isSuperset(of: third))
+
+print(four.isStrictSubset(of: third))
+print(four.isStrictSuperset(of: third))
+print(four.isDisjoint(with: second))
+print(four.isDisjoint(with: five))
+print(third == four)
+
+var NewDictionary = [String: String]()
+NewDictionary["first"] = "Cat"
+print(NewDictionary["first"])
+var NewDictionaray02: [Int: String] = [1: "Cat", 2: "Dog", 3:"Bird"]
+print(NewDictionaray02[1])
+
+let bbb = 10
+var aaa = 5
+aaa = bbb
+print(aaa)
+
+print(1 + 1)
+print(10 - 5)
+print(10 * 10)
+print(10 / 5)
+print("Animal" + " " + "cat")
+
+print( 9 % 4 )
+
+let number  = 10
+let minus = -number
+print(minus)
+
+var Pen = 100
+Pen *= 3
+print(Pen)
+Pen /= 3
+print(Pen)
+Pen += 50
+print(Pen)
+Pen -= 50
+print(Pen)
+
+var ABC = true
+var DEF = 50
+let Price = DEF + (ABC ? 100 : 0)
+print(Price)
+
+
+
+
+let usedPlayerName = "cat"
+let usedPassword = 123123
+var typedName = "cat"
+var typedPassword = 321
+var nameAccess = false
+var passwordAccess = false
+
+if usedPlayerName == typedName{
+    nameAccess = true
+    if usedPassword == typedPassword{
+        passwordAccess = true
+    }
+    else{
+        passwordAccess = false
+    }
+}
+else{
+    nameAccess = false
+}
+
+if nameAccess && passwordAccess {
+    print("Welcome")
+}
+else if nameAccess || passwordAccess {
+    print("Ckeck your ID or Password")
+}
+else {
+    print("you can register our site")
+}
+
+var QRChecker = true
+
+if !QRChecker {
+    print("Check your QR or Use ID and Password")
+}
+else {
+    print("WelCome QR")
+}
